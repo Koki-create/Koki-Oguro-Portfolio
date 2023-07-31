@@ -681,6 +681,17 @@ progress {
     max-width: 1320px;
   }
 }
+
+.profile {
+  text-align : center
+}
+
+.circle {
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
