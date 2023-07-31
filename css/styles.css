@@ -681,14 +681,25 @@ progress {
     max-width: 1320px;
   }
 }
+
+.profile {
+  text-align : center
+}
+
+.circle {
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
-  margin-right: calc(-0.5 * var(--bs-gutter-x));
-  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  margin-right: calc(5 * var(--bs-gutter-x));
+  margin-left: calc(5 * var(--bs-gutter-x));
 }
 .row > * {
   flex-shrink: 0;
