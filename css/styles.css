@@ -622,6 +622,10 @@ progress {
   height: auto;
 }
 
+.opacity {
+  opacity: 0.5;
+}
+
 .figure {
   display: inline-block;
 }
